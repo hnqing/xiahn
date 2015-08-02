@@ -11,7 +11,7 @@
 	  <script src='ajax.js'> </script>
 	  <script type="text/javascript">
 	   window.resizeTo(300,500);
-	   window.setInterval('getMessage()',5000);
+	   window.setInterval('getMessage()',3000);
 
   function getMessage(){
   var xmlhttp=getXMLHttpRequest();
@@ -32,7 +32,7 @@
 			  for(var i=0;i<cons.length;i++){
 			      var con= cons[i].childNodes[0].nodeValue;
 				  var time= sendTime[i].childNodes[0].nodeValue;
-				  $('cons').value+=sender+"对"+getter+"说:"+con+
+				  $('cons').value+=sender+"对你说:"+con+
 				  " "+time.toLocaleString()+"\r\n";
  			  }
 			}
@@ -54,8 +54,9 @@
 			 xmlhttp.onreadystatechange=function(){
 		if(xmlhttp.readyState==4){
 		if(xmlhttp.status==200){
-			 $('cons').value+=sender+"对"+getter+"说:"
-			 +$('mes').value+"\r\n";
+			 $('cons').value+="你对"+getter+"说:"
+			 +$('mes').value+"\r\n";			      
+             $('mes').value="";
 			  }
 			}
 		  }

@@ -1,14 +1,20 @@
-<?php 
-  require_once('SqlHelper.class.php');
 
+<?php 
+ require_once('SqlHelper.class.php');
+ function myconv($str){
+ return iconv("gbk","utf8",$str);
+ }
  class MessageService{
 
+  
+
  function addMessage($sender,$getter,$con){
+	
    $sql="insert into mes(sender,getter,content,sendTime) values( '$sender','$getter','$con',now())"; 
   
    $sqlHelper=new SqlHelper();
    $res=$sqlHelper->execute_dml($sql);
- //file_put_contents("d:/phpStudy/www/chat/log.txt",$sql."--$res"."\r\n",FILE_APPEND);
+  file_put_contents("d:/phpStudy/www/chat/log.txt",$sql."--$res"."\r\n",FILE_APPEND);
     $sqlHelper->close_connect();
 
      }
@@ -30,6 +36,8 @@
   	$sqlHelper->close_connect();
 	return $mesXML;  
    }
+
  
+
  }
 ?>

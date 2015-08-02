@@ -85,67 +85,6 @@ update mes set state=1 where getter='tom' and sender='admin'
 update mes set state=1 where getter='admin' and sender='tom'
 update mes set state=1 where getter='tom' and sender='admin'
 update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='admin' and sender='tom'
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='tom' and sender='admin'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
-update mes set state=1 where getter='admin' and sender='tom'--1
 update mes set state=1 where getter='admin' and sender='tom'--1
 update mes set state=1 where getter='tom' and sender='jeery'--1
 insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张三？',now())--1
@@ -154,3 +93,17 @@ insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张',n
 insert into mes(sender,getter,content,sendTime) values( 'admin','tom','45353',now())--1
 insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张设置',now())--1
 insert into mes(sender,getter,content,sendTime) values( '张三','admin','张啊三？',now())--1
+insert into mes(sender,getter,content,sendTime) values( '','','',now())--1
+insert into mes(sender,getter,content,sendTime) values( '','','',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','二万人',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','2挖宝',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','额头富人盖房',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','热热热',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','redress',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','热  耳热 热 ',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','而耳热',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','然而',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','奋斗奋斗',now())--1
+insert into mes(sender,getter,content,sendTime) values( '宋江','张三','辅导费大声',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','宋江','而发',now())--1
