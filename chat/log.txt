@@ -1,0 +1,156 @@
+<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>\r\n<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+0
+0
+0
+0
+0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+select * from mes where getter='张三' and sender='admin' and state=0
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+<meses></meses>
+admin张三
+admin张三
+admin张三
+admin张三
+admin张三
+admin张三
+admin张三
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+select * from mes where getter='tom' and sender='admin' and state=0
+
+晚上好-admin-tom
+0---
+0---
+0
+insert into mes(sender,getter,content,sendTime) values( 'admin','tom','一台',now())
+insert into mes(sender,getter,content,sendTime) values( 'admin','tom','好好学习',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'tom','admin','789',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'tom','admin','tom sai to admin',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'tom','admin','hfd th',now())--1
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='admin' and sender='tom'
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='admin'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='admin' and sender='tom'--1
+update mes set state=1 where getter='tom' and sender='jeery'--1
+insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张三？',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张三？',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'admin','tom','45353',now())--1
+insert into mes(sender,getter,content,sendTime) values( 'admin','张三','张设置',now())--1
+insert into mes(sender,getter,content,sendTime) values( '张三','admin','张啊三？',now())--1

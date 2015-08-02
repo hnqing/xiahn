@@ -1,0 +1,12 @@
+create database chat;
+create table if not exists mes (
+id int(4) primary key auto_increment,
+sender varchar(20) not null,
+getter varchar(20) not null,
+content varchar(255) ,
+sendTime date not null,
+state tinyint(1) default 0)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into mes(sender,getter,content,sendTime) values('admin','张三','吃了吗?',now()); 
+insert into mes(sender,getter,content,sendTime) values('admin','tom','hellow,world',now()); 
+insert into mes(sender,getter,content,sendTime) values('tom','admin','hellow,world2',now()); 
