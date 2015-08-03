@@ -1,0 +1,1 @@
+insert into mes(sender,getter,content,sendTime) values('tom','admin','hellow,world',now()); 
