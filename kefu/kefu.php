@@ -6,11 +6,11 @@ setCookie("KEFU","admin");
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>客服</title>
 <script src='http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js'></script>
-<style>
+<style type='text/css'>
   #con{
     width:300px;height:320px;border:1px solid grey;background:pink;
 }
-</style type='text/css'>
+</style >
 <script type="text/javascript">
 
 
@@ -31,9 +31,13 @@ function huifu(){
       alert('请选择一个客户再回复！');return;
   }
   var msg=document.getElementsByTagName("textarea")[0].value;
+  $.post('sendMsg.php',msg,function(res){
+  console.log(res);
   var con=$('#con').html();
   con+='你对'+"<font color='red' size=5 >"+span.html()+"</font>"+'说:'+msg+'</br>';
   $('#con').html(con);
+  });
+  
 }
 </script>
 </head>

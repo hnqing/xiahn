@@ -8,14 +8,14 @@
   echo $i++."</br>";
   $sql="select * from mes where getter='$kefu' and state=0 limit 1";
   $res=$sqlHelper->execute_dql2($sql);
-  if(empty($res)){break;}else{
+  if(!empty($res)){
    $sql="update mes set state=1 where id=".$res[0]['id'];
    $sqlHelper->execute_dql($sql);
+   $msg=json_encode($res[0]);
+   echo "<script type='text/javascript'>";
+   echo "parent.window.comet($msg);";
+   echo "</script>";
   }
-  $msg=json_encode($res[0]);
-  echo "<script type='text/javascript'>";
-  echo "parent.window.comet($msg);";
-  echo "</script>";
   ob_flush();
   flush();
   sleep(1);
